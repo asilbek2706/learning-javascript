@@ -4,82 +4,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8467721e-be14-4cbb-9903-6b93bcc5dd82" name="Changes" comment="" />
+    <list default="true" id="8467721e-be14-4cbb-9903-6b93bcc5dd82" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2" />
+    <option name="cachedIndexableFilesCount" value="6" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;asilbek2706&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/asilbek2706/javascript-tutorial.git&quot;,
+    &quot;accountId&quot;: &quot;4b10b478-62c1-454b-954c-62d106827ade&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000019313914755" />
-      <entry key="MS500" value="1.118608164551207" />
-      <entry key="S2" value="1.9568910277015887" />
-      <entry key="S5" value="3.176267947637264" />
-      <entry key="S10" value="4.200099165019497" />
-      <entry key="S30" value="6.238389450893182" />
-      <entry key="S60" value="10.868643879648724" />
-      <entry key="M2" value="22.0926852481552" />
-      <entry key="M5" value="50.37740370453257" />
-      <entry key="M10" value="74.62652809689992" />
-      <entry key="M15" value="86.44863303061834" />
-      <entry key="M30" value="100.99157587095651" />
-      <entry key="H1" value="109.50792263878547" />
-      <entry key="H2" value="114.12433047489935" />
-      <entry key="H4" value="116.52874186937015" />
-      <entry key="D1" value="118.58339247430918" />
-      <entry key="W1" value="118.94036759317108" />
+      <entry key="MS100" value="1.0000437609929063" />
+      <entry key="MS500" value="1.1735968197300504" />
+      <entry key="S2" value="3.481243274939309" />
+      <entry key="S5" value="6.057494210412292" />
+      <entry key="S10" value="9.661058653539756" />
+      <entry key="S30" value="30.56764877924365" />
+      <entry key="S60" value="49.87318671598689" />
+      <entry key="M2" value="69.46740354013379" />
+      <entry key="M5" value="104.1565424158861" />
+      <entry key="M10" value="136.54884945533607" />
+      <entry key="M15" value="153.79785254905738" />
+      <entry key="M30" value="176.29351342318498" />
+      <entry key="H1" value="190.0944899302965" />
+      <entry key="H2" value="197.76232702165947" />
+      <entry key="H4" value="201.80698933311493" />
+      <entry key="D1" value="205.29060234133388" />
+      <entry key="W1" value="205.89839533055374" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.1992415824921427E-193" />
-      <entry key="MS500" value="2.6048417001895716E-39" />
-      <entry key="S2" value="2.259151986346743E-10" />
-      <entry key="S5" value="1.388656387287647E-4" />
-      <entry key="S10" value="0.01234016403544914" />
-      <entry key="S30" value="0.3107197900400396" />
-      <entry key="S60" value="0.7911626201279132" />
-      <entry key="M2" value="1.5179535710889536" />
-      <entry key="M5" value="3.2964363803368397" />
-      <entry key="M10" value="5.1002110830387" />
-      <entry key="M15" value="6.069867965962284" />
-      <entry key="M30" value="7.33469919515362" />
-      <entry key="H1" value="8.109296319011225" />
-      <entry key="H2" value="8.53898782356867" />
-      <entry key="H4" value="8.765425022701159" />
-      <entry key="D1" value="8.960325475406497" />
-      <entry key="W1" value="8.99431785808213" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.6345326739007493E-201" />
+      <entry key="S2" value="7.16433710776145E-51" />
+      <entry key="S5" value="8.771765671154106E-21" />
+      <entry key="S10" value="9.807697116406294E-11" />
+      <entry key="S30" value="6.200846095434807E-4" />
+      <entry key="S60" value="0.035343274100707874" />
+      <entry key="M2" value="0.3208329744031898" />
+      <entry key="M5" value="1.770324591794513" />
+      <entry key="M10" value="3.737595106967831" />
+      <entry key="M15" value="4.93380497799431" />
+      <entry key="M30" value="6.612773916385512" />
+      <entry key="H1" value="7.699878171473861" />
+      <entry key="H2" value="8.320640073013122" />
+      <entry key="H4" value="8.652630341863459" />
+      <entry key="D1" value="8.941004506436416" />
+      <entry key="W1" value="8.991544684846854" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.006258361164713135" />
-      <entry key="MS500" value="0.3832074501911227" />
-      <entry key="S2" value="1.4421048473925184" />
-      <entry key="S5" value="2.830871331186977" />
-      <entry key="S10" value="3.9851613376234103" />
-      <entry key="S30" value="6.435968460881013" />
-      <entry key="S60" value="11.580195203713634" />
-      <entry key="M2" value="23.54881288185712" />
-      <entry key="M5" value="53.6252953080106" />
-      <entry key="M10" value="79.69077841052734" />
-      <entry key="M15" value="92.49043733770365" />
-      <entry key="M30" value="108.30961296504903" />
-      <entry key="H1" value="117.60809080726017" />
-      <entry key="H2" value="122.65853428668677" />
-      <entry key="H4" value="125.291717086631" />
-      <entry key="D1" value="127.54330137044481" />
-      <entry key="W1" value="127.93462573384315" />
+      <entry key="MS100" value="0.13212726490431745" />
+      <entry key="MS500" value="0.7306280656851046" />
+      <entry key="S2" value="3.1691638693226016" />
+      <entry key="S5" value="5.883920214947491" />
+      <entry key="S10" value="9.560760507903385" />
+      <entry key="S30" value="30.523698836490002" />
+      <entry key="S60" value="49.876986023990774" />
+      <entry key="M2" value="69.75812106563875" />
+      <entry key="M5" value="105.89281976704628" />
+      <entry key="M10" value="140.25585793765188" />
+      <entry key="M15" value="158.70596493094484" />
+      <entry key="M30" value="182.88979365013935" />
+      <entry key="H1" value="197.78495706433782" />
+      <entry key="H2" value="206.07793151991336" />
+      <entry key="H4" value="210.4570139379404" />
+      <entry key="D1" value="214.2311598530085" />
+      <entry key="W1" value="214.88987584126434" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3ED8F8C1b9XC1eMMvFucIbOSyKp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -91,10 +108,12 @@
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/home/asilbek/Desktop/github/meeting-projects/websockets",
+    "last_opened_file_path": "/home/asilbek/React/Platform",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,7 +141,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1779701674513</updated>
-      <workItem from="1779701676029" duration="1318000" />
+      <workItem from="1779701676029" duration="1432000" />
+      <workItem from="1779729390053" duration="45000" />
     </task>
     <servers />
   </component>
