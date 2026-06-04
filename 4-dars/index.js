@@ -1,89 +1,60 @@
-// const balandlik = 150;
+// const height = 150;
 
-// if(balandlik >= 160){
-//     console.log("Siz basketbol o'ynashga mos kelasiz");
+// if(height >= 140){
+//     console.log("You can enter the ride");
 // }
 
-// let svetafor = "qizil";
+// let svetafor = "yashil";
 
-// if (svetafor === "qizil") {
-//   console.log("Harakatlanish mumkin emas!");
+// if (svetafor === "yashil") {
+//   console.log("Harakatlanish mumkin!");
+// } else {
+//   console.log("Svetafor boshqa rangda");
 // }
 
-
-// const yosh = 16;
+// const yosh = 17;
 
 // if (yosh >= 18) {
-//     console.log("Siz haydovchilik guvohnomasi olishingiz mumkin.");
+//     // console.log("Siz haydovchilik guvohnomasi olishingiz mumkin.");
 // } else {
-//     console.log("Siz hali voyaga yetmagansiz.");
+//     // console.log("Siz hali voyaga yetmagansiz.");
 // }
 
-// const ball = 95;
+// yosh >= 18 ? console.log("Siz haydovchilik guvohnomasi olishingiz mumkin.") : console.log("Siz hali voyaga yetmagansiz.");
 
-// if (ball >= 90) {
-//     console.log("Sizning bahoingiz: A");
-// } else if (ball >= 80) {
-//     console.log("Sizning bahoingiz: B");
-// } else if (ball >= 70) {
-//     console.log("Sizning bahoingiz: C");
-// } else {
-//     console.log("Siz imtihondan o'ta olmadingiz.");
-// }
+let svetafor = "sariq";
 
-// const parolKiritildi = true;
-// const parolTogri = false;
-
-// if (parolKiritildi) {
-//     if (parolTogri) {
-//         console.log("Tizimga xush kelibsiz!");
-//     } else {
-//         console.log("Xato parol kiritildi.");
-//     }
-// } else {
-//     console.log("Iltimos, parolni kiriting.");
-// }
-
-// const yosh = 22;
-// const IDKartaBor = true;
-
-// // AND operatoriga misol (Ikkala shart ham bajarilishi kerak)
-// if (yosh >= 18 && IDKartaBor) {
-//     console.log("Klubga kirishga ruxsat.");
-// } else {
-//     console.log("Guvohnoma yo'q yoki yosh yetarli emas.");
-// }
-
-// const damOlishKuni = true;
-// const obHavoYaxshi = false;
-
-// // OR operatoriga misol (Kamida bittasi bajarilsa yetarli)
-// if (damOlishKuni || obHavoYaxshi) {
-//     console.log("Aylanib kelamiz.");
-// } else {
-//     console.log("Uyda qolib kod yozamiz.");
-// }
-
-// (10-20) , (20-30), (30-40)
-
-// let son1 = 20;
-// let son2 = 10;
-// let natija = son1 + son2;
-
-// if(natija > 10 && natija <= 20){
-//     console.log("Natija 10 dan katta va 20 ga teng yoki kichik");
-// } else if(natija > 20 && natija <= 30){
-//     console.log("Natija 20 dan katta va 30 ga teng yoki kichik");
-// } else if(natija > 30 && natija <= 40){
-//     console.log("Natija 30 dan katta va 40 ga teng yoki kichik");
-// } else {
-//     console.log("Natija 10 dan kichik yoki 40 dan katta");
-// }
-
-const yosh = 18
-
-if(yosh >= 18){
-    console.log("Siz haydovchilik guvohnomasi olishingiz mumkin.");
+if (svetafor === "yashil") {
+  //   console.log("Harakatlanish mumkin!");
+} else if (svetafor === "sariq") {
+  //   console.log("Diqqat! Tayyorlaning!");
+} else if (svetafor === "qizil") {
+  //   console.log("To'xtang!");
 } else {
-    console.log("Siz hali voyaga yetmagansiz.");
+  //   console.log("Noto'g'ri svetafor rangi!");
 }
+
+svetafor === "yashil"
+  ? console.log("Harakatlanish mumkin!")
+  : svetafor === "sariq"
+    ? console.log("Diqqat! Tayyorlaning!")
+    : svetafor === "qizil"
+      ? console.log("To'xtang!")
+      : console.log("Noto'g'ri svetafor rangi!");
+
+// yosh -> 7-18: maktab yoshidagi bolalar
+// yosh -> 19-22: universitet yoshidagi talabalar
+// yosh -> 20-59: kattalar
+// yosh -> 60 va yuqori: qariyalar
+
+// let orderAmount = 600; // Mijoz 600$ lik xarid qildi (aslida 20% chegirma olishi kerak)
+
+// if (orderAmount > 500) {
+//     console.log("Sizga 20% chegirma!"); // Dastur shu yerda to'xtaydi!
+// } else if (orderAmount > 200) {
+//     console.log("Sizga 10% chegirma!"); // Bu kodga navbat yetib kelmaydi
+// } else if (orderAmount > 100) {
+//     console.log("Sizga 5% chegirma!"); // Bu kodga ham navbat yetib kelmaydi
+// } else {
+//     console.log("Chegirma yo'q.");
+// }
