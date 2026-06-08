@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8467721e-be14-4cbb-9903-6b93bcc5dd82" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-dars/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/5-dars/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +24,12 @@
     &quot;assignee&quot;: &quot;asilbek2706&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/asilbek2706/learning-javascript.git",
-    "accountId": "4b10b478-62c1-454b-954c-62d106827ade"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/asilbek2706/learning-javascript.git&quot;,
+    &quot;accountId&quot;: &quot;4b10b478-62c1-454b-954c-62d106827ade&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -145,6 +144,8 @@
       <workItem from="1779701676029" duration="1432000" />
       <workItem from="1779729390053" duration="45000" />
       <workItem from="1780648077134" duration="745000" />
+      <workItem from="1780662093598" duration="46000" />
+      <workItem from="1780839615887" duration="20000" />
     </task>
     <servers />
   </component>
