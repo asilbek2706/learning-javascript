@@ -5,7 +5,7 @@ const cart = [
   { name: "Shlyapa", price: null },
 ];
 
-function startShopping(username, couponCode, balance) {
+function startShopping(username, couponCode, paymentMethod, balance) {
   const customer = username ?? "Mehmon";
   console.log(
     "===================== Xarid Boshlandi ===================================",
@@ -13,13 +13,15 @@ function startShopping(username, couponCode, balance) {
   console.log(`Salom, ${customer}! Xush kelibsiz!`);
 
   let totalAmount = 0;
+
   for (let i = 0; i < cart.length; i++) {
-    item = cart[i];
+    const item = cart[i];
 
     let finalPrice = item.price || 5;
     console.log(`Sizning mahsulotingiz: ${item.name}, narxi: $${finalPrice}`);
-    totalAmount = totalAmount + finalPrice;
+    totalAmount += finalPrice;
   }
+
   console.log(`Jami summa: ${totalAmount}`);
 
   console.log(
@@ -52,11 +54,11 @@ function startShopping(username, couponCode, balance) {
     console.log("========= Balans tekshirilmoqda... =================");
     console.log(`Szining balansingiz: $${balance}`);
     console.log("Sizning balansizning yetarli emas...");
+    console.log(`Sizga $${totalAmount - balance} qo'shimcha kerak bo'ladi.`);
     return;
   }
 
   console.log("========= To'lov usuli tekshirilmoqda ==========");
-  let paymentMethod = "click";
 
   switch (paymentMethod) {
     case "click":
@@ -70,8 +72,10 @@ function startShopping(username, couponCode, balance) {
       break;
     case "humo":
       console.log("Siz Humo orqali to'lovni amalga oshirdingiz.");
+      break;
     case "cash":
       console.log("Siz naqt pul to'lashni tanladingiz!");
+      break;
     default:
       console.log(
         "Siz to'lov usulini tanlamadingiz yoki noto'g'ri to'lov usuli tanladingiz.",
@@ -87,11 +91,11 @@ function startShopping(username, couponCode, balance) {
     if (progress === 100) {
       clearInterval(timer);
       console.log("Xarid muvaffaqiyatli yakunlandi! Rahmat!");
+      const remainingBalance = balance - totalAmount;
+      console.log(`Sizning balansingiz: $${remainingBalance}`);
     }
   }, 500);
 
-  const remainingBalance = balance - totalAmount;
-  console.log(`Sizning balansingiz: $${remainingBalance}`);
 }
 
-startShopping("Asilbek", "DISCOUNT10", 10);
+startShopping("Asilbek", "DISCOUNT10", "humo", 200);
